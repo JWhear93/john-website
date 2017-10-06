@@ -11,6 +11,12 @@ html {
 	-moz-box-shadow: 0px 0px 5px 3px #00031d;
 }
 
+#top-head {
+	padding-top: 2%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 #main-title {
 	font-family: 'Playfair Display', serif;
 	font-size: 3.5rem;
@@ -18,9 +24,28 @@ html {
 	font-weight: bold;
 }
 
+#main-title a {
+	text-decoration: none;
+	color: #ccdeff;
+}
+
+.aat-bannerr, .aat-bannerl {
+	width: 100px;
+}
+
+.aat-bannerl {
+	float: left;
+}
+
+.aat-bannerr {
+	float: right;
+	display: none;
+}
+
 #sub-title {
 	font-family: 'Slabo 27px', serif;
 	color: #ccdeff;
+	text-align: center;
 }
 
 #quick-banner {
@@ -69,6 +94,12 @@ html {
 @media (min-width: 587px) {
 	#foot {
 		max-height: 160px;
+	}
+}
+
+@media (min-width: 550px) {
+	.aat-bannerr {
+		display: initial;
 	}
 }
 
