@@ -59,7 +59,7 @@ html {
 }
 
 #nav a {
-	width: 90%;
+	width: 97%;
 	min-width: 85px;
 	padding: 0;
 	margin: 5px;
@@ -104,6 +104,9 @@ html {
 	#top-head {
 		padding-top: 2%;
 		padding-left: 10px;
+	}
+	#nav a {
+		width: 90%;
 	}
 }
 
