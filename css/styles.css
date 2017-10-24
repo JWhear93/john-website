@@ -122,12 +122,6 @@ hr {
 	}
 }
 
-@media (min-width: 900px) {
-	#foot {
-		max-height: 240px;
-	}
-}
-
 @media (min-width: 550px) {
 	.aat-bannerr {
 		display: initial;
@@ -140,7 +134,7 @@ hr {
 		width: 90%;
 	}
 	#top-pics {
-		max-width: 700px;
+		max-width: 600px;
 	}
 	.pic-section {
 		max-width: 200px;
