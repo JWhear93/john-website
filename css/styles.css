@@ -1,6 +1,5 @@
 html {
-	background-color: rgba(0, 53, 146, 0.9);
-	background-image: url(../images/dark-denim-3.png);
+	background-color: rgb(121, 170, 255);
 }
 
 .container {
@@ -49,9 +48,23 @@ html {
 	text-align: center;
 }
 
-#quick-banner {
-	display: block;
+#top-pics {
+	max-width: 270px;
 	margin: 0 auto;
+}
+
+.pic-section {
+	max-width: 131.25px;
+}
+
+.pic-image {
+	max-width: 200px;
+}
+
+.pic-text {
+	color: white;
+	max-width: 200px;
+	text-align: center;
 }
 
 #nav {
@@ -125,6 +138,12 @@ hr {
 	}
 	#nav a {
 		width: 90%;
+	}
+	#top-pics {
+		max-width: 700px;
+	}
+	.pic-section {
+		max-width: 200px;
 	}
 }
 
