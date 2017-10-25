@@ -39,7 +39,7 @@ html {
 
 .aat-bannerr {
 	float: right;
-	display: none;
+	visibility: hidden;
 }
 
 #sub-title {
@@ -124,7 +124,7 @@ hr {
 
 @media (min-width: 550px) {
 	.aat-bannerr {
-		display: initial;
+		visibility: visible;
 	}
 	#top-head {
 		padding-top: 0;
