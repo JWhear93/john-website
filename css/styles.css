@@ -8,12 +8,12 @@ html {
 	box-shadow: 0px 0px 5px 3px #00031d;
 	-webkit-box-shadow: 0px 0px 5px 3px #00031d;
 	-moz-box-shadow: 0px 0px 5px 3px #00031d;
+	min-width: 304px;
 }
 
 #top-head {
 	padding-top: 0;
 	padding-left: 0;
-	padding-right: 10px;
 }
 
 #main-title {
@@ -40,6 +40,7 @@ html {
 .aat-bannerr {
 	float: right;
 	visibility: hidden;
+	width: 0;
 }
 
 #sub-title {
@@ -125,10 +126,10 @@ hr {
 @media (min-width: 550px) {
 	.aat-bannerr {
 		visibility: visible;
+		width: 100px;
 	}
 	#top-head {
 		padding-top: 0;
-		padding-left: 10px;
 	}
 	#nav a {
 		width: 90%;
