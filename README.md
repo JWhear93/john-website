@@ -1,1 +1,1 @@
-John website preview - https://jwhear93.github.io/john-website/
+John website files
